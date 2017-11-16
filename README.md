@@ -98,6 +98,10 @@ jump right into the deep end and start programming a tank.
 
 ### Exercise 1
 
+```
+$ ruby examples/01_movement.rb
+```
+
 The first exercise is simple, get your tank to driving around the arena. You should be able to
 implement `tick!` so that the tank picks a random point and drives toward it. Picking a random
 heading every few seconds is easy enough, but it's trickier to detect when the tank has hit a wall
@@ -105,16 +109,28 @@ or arrived at a specific point in the arena.
 
 ### Exercise 2
 
+```
+$ ruby examples/02_stationary_targets.rb
+```
+
 The next exercise is to find and destroy stationary targets. This exercise will spawn a series
 of stationary dummy tanks, your tank should be able to find and destroy them as quickly as
 possible. This is a good way to learn how to balance shot power against target range.
 
 ### Exercise 3
 
+```
+$ ruby examples/03_moving_targets.rb
+```
+
 This time the dummy tanks are moving around, so your tank will need to follow behind them or
 track them from a distance and land shots.
 
 ### Exercise 4
+
+```
+$ ruby examples/04_challenge.rb
+```
 
 Finally a real challenge, pit your tank against the Seek & Destroy example tank that executes a
 simple target acquisition algorithm.
